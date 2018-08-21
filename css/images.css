@@ -1,0 +1,32 @@
+/*At 801px or greater featured images keep width integrity.*/
+@media screen and (min-width: 801px){
+  .featured-work-pics{
+    width: 90%;
+  }
+}
+/* At 800px and/or less, stack featured work on top of each other.*/
+@media screen and (min-width: 800px){
+  .featured-work-content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.top-space{
+  border-bottom: solid #7d97ad;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+.udacity-logo{
+  width: 55%;
+}
+.center-image{
+  margin: auto;
+  text-align: center;
+  max-height: 500px;
+  width: 100%;
+}
+.featured-work-content{
+  text-align: center;
+  color: #2d3c49;
+}
